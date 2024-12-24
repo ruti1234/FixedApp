@@ -1,6 +1,6 @@
 # Broken Blog App
 
-This repository contains a broken blog application with both frontend (Angular) and backend (.NET Core) components. Your task is to identify and fix bugs, refactor poor implementations, and ensure the application works as expected.
+You are provided with a simple blog application built with Angular (frontend) and .NET Core (backend). Your task is to identify and fix bad implementations, improve the code quality, and ensure the application works as expected.
 
 ## Project Structure
 - `frontend/`: Angular application for the blog.
@@ -8,10 +8,20 @@ This repository contains a broken blog application with both frontend (Angular) 
 
 ## Assignment Instructions
 1. Set up both the frontend and backend according to their respective `README.md` files.
-2. Identify and fix issues in the code (both frontend and backend).
-3. Enhance functionality where necessary (e.g., add validation, error handling, modularization).
+2. Identify poor practices in the code and refactor where necessary (e.g., hardcoded values, lack of modularity, error handling,  poor naming conventions).
+ (both frontend and backend).
+3.Add basic validation to the "Create Blog Post" form (e.g., Title and Content should not be empty).
+Ensure API input validation is properly handled on the backend.
 4. Submit your updated code along with a document outlining the changes you made.
+
+## Deliverables
+Provide a short document (or update the README) with:
+1.A list of the issues you identified.
+	What changes you made and why.
+2.Submit the updated code  in separate branch
 
 ## Prerequisites
 - Node.js and Angular CLI for the frontend.
 - .NET SDK for the backend.
+
+  
