@@ -1,13 +1,18 @@
 # Broken Blog App
 
 You are provided with a simple blog application built with Angular (frontend) and .NET Core (backend). 
-The application shows list of posts that are stored in the server. When clicking on a post its details are shown below the list.
-There is also a form to add a new post.
-Your task is to identify and fix bad implementations, improve the code quality, and ensure the application works as expected.
-### No new functionality, logic or features need to be added!!! 
+
+The application shows list of posts retrieved from the server. When clicking on a post its details are shown below the list.
+There is also a simple form to add a new post.
+
+Your task is:
+#### - To identify and fix  bad implementations
+#### - Improve the code quality
+#### - Ensure the application works as expected.
+#### No new functionality, logic or features need to be added to the application!!! 
 
 ## Project Structure
-- `frontend/`: Angular application for the blog.
+- `frontend/`: Angular application for the blog (Angular CLI version 16.2.5).
 - `backend/`: .NET Core API for the blog.
 
 ## Assignment Instructions
