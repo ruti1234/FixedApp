@@ -27,7 +27,7 @@ Ensure API input validation is properly handled on the backend.
 Provide a short document (or update the README) with:
 1. A list of the issues you identified.
 	What changes you made and why.
-2. Submit the updated code  in separate branch
+2.  Submit the updated code  in separate repo (with the link)
 
 ## Prerequisites
 - Node.js and Angular CLI for the frontend.
