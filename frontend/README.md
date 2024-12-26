@@ -5,7 +5,7 @@
 3. Run the application: `ng serve`.
 4. The app should be available at `http://localhost:4200`.
 
-Changes Made:
+Code Improvements and Refactoring:
 
 Error Handling:
 Files Affected: BlogService.ts and BlogComponent.ts
