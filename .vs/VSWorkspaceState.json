@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\bin\\Debug",
+    "\\backend\\bin\\Release",
+    "\\backend\\bin\\Release\\net7.0",
+    "\\backend\\Controllers",
+    "\\backend\\obj\\Debug",
+    "\\backend\\Properties"
+  ],
+  "SelectedNode": "\\backend\\Controllers\\PostsController.cs",
+  "PreviewInSolutionExplorer": false
+}

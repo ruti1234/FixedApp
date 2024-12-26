@@ -1,29 +1,31 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
 var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.AddOpenApi();
+builder.Services.AddSwaggerGen();
 builder.Services.AddControllers(); 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200") // Replace with your frontend's origin
+            policy.WithOrigins("http://localhost:4200") 
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
 });
+
 var app = builder.Build();
-// Use CORS
+
 app.UseCors("AllowFrontend");
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
 }
-app.MapControllers();
 
+app.MapControllers(); 
 
 app.Run();
-
-

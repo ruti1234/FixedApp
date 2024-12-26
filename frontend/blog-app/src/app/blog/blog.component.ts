@@ -4,8 +4,7 @@ import { BlogService } from '../blog.service';
 
 @Component({
   selector: 'app-blog',
-  template: `
-    <ul>
+  template: `<ul>
       <li *ngFor="let post of posts" (click)="loadPostDetails(post.id)">
         {{ post.title }}
       </li>
@@ -16,15 +15,14 @@ import { BlogService } from '../blog.service';
     </div>
     <h1>Create New Post</h1>
     <form (submit)="createPost()">
-      <label>Title: </label>
-      <input [(ngModel)]="newPost.title">
-      <label>Description: </label>
-      <input [(ngModel)]="newPost.description">
-      <label>Content: </label>
-      <textarea [(ngModel)]="newPost.content"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  `,
+  <label>Title: </label>
+  <input [(ngModel)]="newPost.title">
+  <label>Description: </label>
+  <input [(ngModel)]="newPost.description"> 
+  <label>Content: </label>
+  <textarea [(ngModel)]="newPost.content"></textarea>
+  <button type="submit">Submit</button>
+</form>`,
 })
 export class BlogComponent implements OnInit {
   posts: any[] = [];
